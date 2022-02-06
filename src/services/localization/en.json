@@ -1,0 +1,10 @@
+{
+  "Currently no data": "Currently no data",
+  "Pull to update": "Pull to update",
+  "Street: {{street}}": "Street: {{street}}",
+  "City: {{city}}": "City: {{city}}",
+  "State: {{state}}": "State: {{state}}",
+  "Country: {{country}}": "Country: {{country}}",
+  "Timezone: {{timezone}}": "Timezone: {{timezone}}",
+  "": ""
+}

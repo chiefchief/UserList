@@ -1,9 +1,12 @@
-/**
- * @format
- */
+import {AppRegistry, LogBox} from 'react-native';
+import 'react-native-gesture-handler';
+import {enableScreens} from 'react-native-screens';
+import {localizationService} from './src/services/localization/i18n'; // need for React i18n initialization
+import {name} from './app.json';
+import {App} from './src/App';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+LogBox.ignoreAllLogs();
+localizationService.init();
+enableScreens();
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(name, () => App);
